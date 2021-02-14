@@ -30,7 +30,7 @@ function setup() {
 	boy.addImage(boyImage);
 	boy.scale=0.08;
 
-	launcherObj=new launcher(stone.body,{x:140,y:600});
+	launcherObj=new Launcher(stone.body,{x:140,y:600});
 	
 	mango1=new Mango(500,350,20);
 	mango2=new Mango(530,230,20);
